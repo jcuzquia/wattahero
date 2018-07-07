@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each project list item -->
+    <dimen name="project_list_item_height">88dp</dimen>
+
+    <!-- Width of the (kWh and kW) savings container -->
+    <dimen name="project_left_container_width">88dp</dimen>
+
+    <!-- Width of middle container -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="add_project_fab_margin">16dp</dimen>
+
+    <dimen name="activity_margin">8dp</dimen>
+</resources>

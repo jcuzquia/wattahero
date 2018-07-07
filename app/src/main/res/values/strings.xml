@@ -1,0 +1,98 @@
+<resources>
+    <!-- Name of the application -->
+    <string name="app_name">WattaHero</string>
+
+    <!-- Label of the incentive amount -->
+    <string name="incentive_amount_label">Incentive: </string>
+
+    <!-- Hint used in the building name edit text view-->
+    <string name="hint_building_name">McNair Hall</string>
+
+    <!-- Label for the project project overview of attributes in the editor CHAR LIMIT=30 -->
+    <string name="project_overview">Project Overview</string>
+
+    <!-- Project address hint -->
+    <string name="project_address_hint">Project Address</string>
+
+    <!-- Title that is displayed at the top of the project form -->
+    <string name="add_project_title">Add Project</string>
+
+    <!-- Project Name Label Text view -->
+    <string name="project_name_label">Project Name</string>
+
+    <!-- Building Name Label Text view -->
+    <string name="building_name_label">Building Name</string>
+
+    <!-- Hint of Project Name Text view -->
+    <string name="project_name_hint">Assesment Walmart</string>
+
+    <!-- Hint used in the building name edit text view-->
+    <string name="building_name_hint">Walmart Store #1</string>
+
+    <!-- Label used above the utility spinner-->
+    <string name="utility_spinner_label">Service Utility</string>
+
+    <!-- Label used for the building address -->
+    <string name="building_address_label">Building Address</string>
+
+    <!-- Label used for the city -->
+    <string name="building_city_label">City</string>
+
+    <!-- This is for the button to add project -->
+    <string name="action_save_project">Add Project</string>
+
+    <!-- Cancel adding project -->
+    <string name="cancel_create_project">Cancel</string>
+
+    <!-- Zip code hint -->
+    <string name="zip_code_hint">Zip Code</string>
+
+    <string name="city_hint">Kansas City</string>
+
+    <string name="state_hint">Missouri</string>
+
+    <string name="building_state_label">State</string>
+
+    <string name="building_zip_code_label">Zip Code</string>
+
+    <string name="project_summary_title">Project Summary</string>
+
+    <string name="project_measures_title">List of Measures</string>
+
+    <!-- Label for overflow menue option that deletes all projects from the dashboard [CHAR LIMIT = 20]-->
+    <string name="action_delete_all_entries">Delete All Projects</string>
+
+    <!-- Label for overflow menu option that inserts dummie data into the app [CHAR LIMIT=20]-->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Title text for the empty view, which describes the empty list [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a project</string>
+
+    <string name="project_editor_activity_title_new_project">Add New Project</string>
+
+    <string name="project_editor_activity_title_edit_project">Edit Project</string>
+
+    <string name="editor_insert_project_failed">There was an error savings this project</string>
+
+    <string name="editor_insert_project_success">Project saved successfully</string>
+
+    <string name="delete_project_dialog_msg">Delete Project?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="editor_delete_project_failed">Error with deleting project</string>
+
+    <string name="editor_delete_project_successful">Project deleted</string>
+
+</resources>

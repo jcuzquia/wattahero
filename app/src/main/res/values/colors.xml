@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color of the app (shown in the app bar) -->
+    <color name="primary_color">#607D8B</color>
+
+    <!-- Background Color for the projects list -->
+    <color name="light_background">#ECEFF1</color>
+
+    <!-- Background color for the left container on the project list -->
+    <color name="left_container_background">#FF474C4E</color>
+
+    <!-- Background color for each project item -->
+    <color name="item_background">#B0BEC5</color>
+
+    <!-- Right container background -->
+    <color name="right_container_background">#4a4f51</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="add_project_background_color">#76FF03</color>
+</resources>
