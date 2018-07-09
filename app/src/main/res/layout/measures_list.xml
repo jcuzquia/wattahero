@@ -1,22 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="322dp"
+    <RelativeLayout
+        android:id="@+id/projects_empty_view"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="476dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="17dp"
-        android:text="THIS IS WHERE THE LIST OF MEASURES WILL GO"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/empty_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="8dp"
+            android:text="@string/empty_measures_title_text"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/empty_subtitle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="32dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/empty_measures_subtitle_text"
+            android:fontFamily="sans-serif-medium"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/measures_list">
+    </ListView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_measure_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/add_project_fab_margin"
+        android:background="@color/add_project_background_color"
+        android:src="@drawable/ic_add_circle_white_24dp"
+        app:backgroundTint="@color/add_project_background_color" />
+
+</RelativeLayout>
