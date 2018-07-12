@@ -33,10 +33,26 @@
                 android:value=".DashboardActivity"/>
 
         </activity>
+
+        <activity
+            android:name=".MeasureSearchActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:parentActivityName=".ProjectEditorActivity"
+            android:label="@string/search_measure">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:resource="@xml/measure_searchable" />
+
+        </activity>
         <provider
             android:authorities="com.example.android.wattahero"
-            android:name=".data.ProjectProvider"
+            android:name=".data.WattaheroProvider"
             android:exported="false"/>
+
     </application>
 
 </manifest>

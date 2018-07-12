@@ -14,4 +14,18 @@
         android:title="@string/cancel_create_project"
         android:icon="@drawable/ic_cancel_white_24dp"
         app:showAsAction="always"/>
+
+    <group>
+        <item
+            android:id="@+id/action_insert_dummy_measures"
+            android:title="@string/action_insert_dummy_measures"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_delete_all_measures"
+            android:title="@string/action_delete_all_measures"
+            app:showAsAction="never" />
+    </group>
+
+
 </menu>

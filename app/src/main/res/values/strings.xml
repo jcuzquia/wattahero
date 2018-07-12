@@ -11,6 +11,12 @@
     <!-- Label for the project project overview of attributes in the editor CHAR LIMIT=30 -->
     <string name="project_overview">Project Overview</string>
 
+    <!-- Label for the searchable measure overview of attributes in the editor CHAR LIMIT=30 -->
+    <string name="search_measure">Search Measure</string>
+
+    <!-- Label for the searchable measure overview of attributes in the editor CHAR LIMIT=30 -->
+    <string name="search_measure_hint">Search Measure Here</string>
+
     <!-- Project address hint -->
     <string name="project_address_hint">Project Address</string>
 
