@@ -80,13 +80,13 @@
     <string name="action_insert_dummy_measures">Insert Dummy Measures</string>
 
     <!-- Title text for the empty view, which describes the empty list [CHAR LIMIT=50] -->
-    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here…</string>
 
     <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
     <string name="empty_view_subtitle_text">Get started by adding a project</string>
 
     <!-- Title text for the empty view, which describes the empty list [CHAR LIMIT=50] -->
-    <string name="empty_measures_title_text">It\'s a bit lonely here...</string>
+    <string name="empty_measures_title_text">It\'s a bit lonely here…</string>
 
     <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
     <string name="empty_measures_subtitle_text">Get started by adding a measure</string>
