@@ -17,5 +17,5 @@
 
     <color name="colorAccent">#FF4081</color>
 
-    <color name="add_project_background_color">#76FF03</color>
+    <color name="add_project_background_color">#000000</color>
 </resources>

@@ -114,5 +114,6 @@
     <string name="editor_delete_project_failed">Error with deleting project</string>
 
     <string name="editor_delete_project_successful">Project deleted</string>
+    <string name="building_type">Building Type:</string>
 
 </resources>
