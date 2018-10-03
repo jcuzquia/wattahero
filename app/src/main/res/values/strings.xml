@@ -115,5 +115,7 @@
 
     <string name="editor_delete_project_successful">Project deleted</string>
     <string name="building_type">Building Type:</string>
+    <string name="project_created_on">Created On:</string>
+    <string name="project_updated_on">Updated On:</string>
 
 </resources>

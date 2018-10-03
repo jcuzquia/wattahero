@@ -34,7 +34,7 @@
             android:fontFamily="sans-serif-light"
             android:gravity="center"
             android:textStyle="bold"
-            app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+            app:layout_constraintBaseline_toBaselineOf="@+id/date_created"
             app:layout_constraintStart_toStartOf="parent"
             tools:text="50 kW" />
 
